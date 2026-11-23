@@ -1,0 +1,44 @@
+[
+  {
+    "step": "raw",
+    "before": 374142,
+    "after": 374142,
+    "removed": 0
+  },
+  {
+    "step": "drop_duplicates",
+    "before": 374142,
+    "after": 312852,
+    "removed": 61290
+  },
+  {
+    "step": "drop_missing_date",
+    "before": 312852,
+    "after": 312852,
+    "removed": 0
+  },
+  {
+    "step": "drop_missing_neighbourhood",
+    "before": 312852,
+    "after": 290601,
+    "removed": 22251
+  },
+  {
+    "step": "drop_invalid_coords",
+    "before": 290601,
+    "after": 290601,
+    "removed": 0
+  },
+  {
+    "step": "filter_in_city",
+    "before": 290601,
+    "after": 290601,
+    "removed": 0
+  },
+  {
+    "step": "filter_date_range",
+    "before": 290601,
+    "after": 290601,
+    "removed": 0
+  }
+]

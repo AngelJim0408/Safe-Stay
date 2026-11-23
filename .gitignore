@@ -1,7 +1,6 @@
 .env
 keys.env
-data/
-outputs/
+data/raw/
 .venv/
 __pycache__/
 spark-warehouse/

@@ -1,0 +1,16 @@
+neighbourhood,avg_incidents,persons,property,share_of_city,baseline_avg,seasonal_ratio,list_name
+Tenderloin,912.667,166.0,287.0,0.104,794.194,1.149,most_incidents
+Mission,847.667,149.667,449.0,0.096,821.444,1.032,most_incidents
+South of Market,759.333,116.333,344.333,0.086,719.5,1.055,most_incidents
+Bayview Hunters Point,603.0,83.333,287.333,0.069,541.944,1.113,most_incidents
+Financial District/South Beach,536.333,68.333,365.667,0.061,499.528,1.074,most_incidents
+Noe Valley,135.667,6.333,104.667,0.015,109.278,1.241,largest_seasonal_increase
+Twin Peaks,52.0,1.333,38.667,0.006,42.806,1.215,largest_seasonal_increase
+Marina,278.333,15.333,206.333,0.032,230.778,1.206,largest_seasonal_increase
+Hayes Valley,280.667,22.667,207.0,0.032,234.944,1.195,largest_seasonal_increase
+Presidio Heights,71.333,3.667,54.0,0.008,59.917,1.191,largest_seasonal_increase
+Presidio,6.667,0.0,5.667,0.001,6.417,1.039,fewest_incidents
+Seacliff,13.0,0.333,8.667,0.001,11.833,1.099,fewest_incidents
+Lincoln Park,14.0,0.0,12.333,0.002,15.417,0.908,fewest_incidents
+McLaren Park,15.667,1.667,7.333,0.002,12.444,1.259,fewest_incidents
+Treasure Island,32.667,6.667,14.0,0.004,29.722,1.099,fewest_incidents

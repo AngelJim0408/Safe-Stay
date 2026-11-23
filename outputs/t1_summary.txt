@@ -1,0 +1,17 @@
+Task 1 summary
+==============
+Row counts per cleaning step:
+  raw: 374,142 -> 374,142 (removed 0)
+  drop_duplicates: 374,142 -> 312,852 (removed 61,290)
+  drop_missing_date: 312,852 -> 312,852 (removed 0)
+  drop_missing_neighbourhood: 312,852 -> 290,601 (removed 22,251)
+  drop_invalid_coords: 290,601 -> 290,601 (removed 0)
+  filter_in_city: 290,601 -> 290,601 (removed 0)
+  filter_date_range: 290,601 -> 290,601 (removed 0)
+Final rows: 290,601
+Neighbourhoods: 41
+Date range: 2022-01-01 00:00 to 2024-12-31 23:59
+Top 3 offence types overall:
+  Larceny Theft: 94,489
+  Motor Vehicle Theft: 23,481
+  Assault: 22,298
