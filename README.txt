@@ -28,8 +28,8 @@ outputs - all deliverable files
 
 How to run TASKS 1 and TASK 2:
 
-python -m src.ingest              # smoke test: prints the real column names
-python run_task1.py               # download, clean, classify, summarise
-python run_task2.py --month 7     # outlook + LLM summary (add --no-llm to skip the LLM)
+python -m src.ingest              - smoke test: prints the real column names
+python run_task1.py               - download, clean, classify, summarise
+python run_task2.py --month 7     - outlook + LLM summary (add --no-llm to skip the LLM)
 python run_task2.py --month 1
 
