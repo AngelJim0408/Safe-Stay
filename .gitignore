@@ -1,0 +1,8 @@
+.env
+keys.env
+data/
+outputs/
+.venv/
+__pycache__/
+spark-warehouse/
+.pytest_cache/
