@@ -1,0 +1,165 @@
+model,mode,neighbourhood,real_monthly_avg,real_rank,llm_rating,llm_estimate,abs_pct_error,status
+groq:openai/gpt-oss-120b,no_data,Mission,821.44,1,4,95.0,88.4,matched
+groq:openai/gpt-oss-120b,no_data,Tenderloin,794.19,2,5,180.0,77.3,matched
+groq:openai/gpt-oss-120b,no_data,South of Market,719.5,3,4,110.0,84.7,matched
+groq:openai/gpt-oss-120b,no_data,Bayview Hunters Point,541.94,4,4,85.0,84.3,matched
+groq:openai/gpt-oss-120b,no_data,Financial District/South Beach,499.53,5,3,40.0,92.0,matched
+groq:openai/gpt-oss-120b,no_data,Western Addition,297.0,6,3,35.0,88.2,matched
+groq:openai/gpt-oss-120b,no_data,North Beach,279.5,7,2,22.0,92.1,matched
+groq:openai/gpt-oss-120b,no_data,Sunset/Parkside,263.47,8,2,14.0,94.7,matched
+groq:openai/gpt-oss-120b,no_data,Hayes Valley,234.94,9,2,20.0,91.5,matched
+groq:openai/gpt-oss-120b,no_data,Nob Hill,233.08,10,2,20.0,91.4,matched
+groq:openai/gpt-oss-120b,no_data,Marina,230.78,11,1,8.0,96.5,matched
+groq:openai/gpt-oss-120b,no_data,Castro/Upper Market,202.28,12,2,18.0,91.1,matched
+groq:openai/gpt-oss-120b,no_data,Russian Hill,196.19,13,2,22.0,88.8,matched
+groq:openai/gpt-oss-120b,no_data,Bernal Heights,192.56,14,2,22.0,88.6,matched
+groq:openai/gpt-oss-120b,no_data,West of Twin Peaks,172.67,15,2,12.0,93.1,matched
+groq:openai/gpt-oss-120b,no_data,Outer Richmond,171.56,16,2,12.0,93.0,matched
+groq:openai/gpt-oss-120b,no_data,Excelsior,155.56,17,3,38.0,75.6,matched
+groq:openai/gpt-oss-120b,no_data,Chinatown,150.25,18,3,45.0,70.0,matched
+groq:openai/gpt-oss-120b,no_data,Pacific Heights,149.08,19,1,5.0,96.6,matched
+groq:openai/gpt-oss-120b,no_data,Mission Bay,144.31,20,3,35.0,75.7,matched
+groq:openai/gpt-oss-120b,no_data,Potrero Hill,134.25,21,3,30.0,77.7,matched
+groq:openai/gpt-oss-120b,no_data,Lakeshore,127.83,22,2,14.0,89.0,matched
+groq:openai/gpt-oss-120b,no_data,Golden Gate Park,121.75,23,2,20.0,83.6,matched
+groq:openai/gpt-oss-120b,no_data,Haight Ashbury,121.11,24,2,25.0,79.4,matched
+groq:openai/gpt-oss-120b,no_data,Outer Mission,119.0,25,3,32.0,73.1,matched
+groq:openai/gpt-oss-120b,no_data,Noe Valley,109.28,26,2,18.0,83.5,matched
+groq:openai/gpt-oss-120b,no_data,Lone Mountain/USF,104.53,27,2,12.0,88.5,matched
+groq:openai/gpt-oss-120b,no_data,Portola,104.39,28,3,28.0,73.2,matched
+groq:openai/gpt-oss-120b,no_data,Inner Richmond,103.03,29,2,18.0,82.5,matched
+groq:openai/gpt-oss-120b,no_data,Inner Sunset,101.19,30,2,16.0,84.2,matched
+groq:openai/gpt-oss-120b,no_data,Oceanview/Merced/Ingleside,93.67,31,3,40.0,57.3,matched
+groq:openai/gpt-oss-120b,no_data,Visitacion Valley,84.86,32,4,80.0,5.7,matched
+groq:openai/gpt-oss-120b,no_data,Japantown,68.69,33,2,12.0,82.5,matched
+groq:openai/gpt-oss-120b,no_data,Presidio Heights,59.92,34,1,4.0,93.3,matched
+groq:openai/gpt-oss-120b,no_data,Glen Park,50.28,35,2,15.0,70.2,matched
+groq:openai/gpt-oss-120b,no_data,Twin Peaks,42.81,36,2,10.0,76.6,matched
+groq:openai/gpt-oss-120b,no_data,Treasure Island,29.72,37,3,25.0,15.9,matched
+groq:openai/gpt-oss-120b,no_data,Lincoln Park,15.42,38,2,10.0,35.1,matched
+groq:openai/gpt-oss-120b,no_data,McLaren Park,12.44,39,3,30.0,141.1,matched
+groq:openai/gpt-oss-120b,no_data,Seacliff,11.83,40,1,2.0,83.1,matched
+groq:openai/gpt-oss-120b,no_data,Presidio,6.42,41,1,3.0,53.2,matched
+groq:openai/gpt-oss-120b,with_data,Mission,821.44,1,5,821.4,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Tenderloin,794.19,2,5,794.2,0.0,matched
+groq:openai/gpt-oss-120b,with_data,South of Market,719.5,3,5,719.5,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Bayview Hunters Point,541.94,4,5,541.9,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Financial District/South Beach,499.53,5,5,499.5,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Western Addition,297.0,6,5,297.0,0.0,matched
+groq:openai/gpt-oss-120b,with_data,North Beach,279.5,7,5,279.5,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Sunset/Parkside,263.47,8,5,263.5,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Hayes Valley,234.94,9,5,234.9,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Nob Hill,233.08,10,4,233.1,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Marina,230.78,11,4,230.8,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Castro/Upper Market,202.28,12,4,202.3,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Russian Hill,196.19,13,4,196.2,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Bernal Heights,192.56,14,4,192.6,0.0,matched
+groq:openai/gpt-oss-120b,with_data,West of Twin Peaks,172.67,15,4,172.7,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Outer Richmond,171.56,16,4,171.6,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Excelsior,155.56,17,4,155.6,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Chinatown,150.25,18,3,150.2,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Pacific Heights,149.08,19,3,149.1,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Mission Bay,144.31,20,3,144.3,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Potrero Hill,134.25,21,3,134.2,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Lakeshore,127.83,22,3,127.8,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Golden Gate Park,121.75,23,3,121.8,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Haight Ashbury,121.11,24,3,121.1,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Outer Mission,119.0,25,3,119.0,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Noe Valley,109.28,26,2,109.3,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Lone Mountain/USF,104.53,27,2,104.5,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Portola,104.39,28,2,104.4,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Inner Richmond,103.03,29,2,103.0,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Inner Sunset,101.19,30,2,101.2,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Oceanview/Merced/Ingleside,93.67,31,2,93.7,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Visitacion Valley,84.86,32,2,84.9,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Japantown,68.69,33,2,68.7,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Presidio Heights,59.92,34,1,59.9,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Glen Park,50.28,35,1,50.3,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Twin Peaks,42.81,36,1,42.8,0.0,matched
+groq:openai/gpt-oss-120b,with_data,Treasure Island,29.72,37,1,29.7,0.1,matched
+groq:openai/gpt-oss-120b,with_data,Lincoln Park,15.42,38,1,15.4,0.1,matched
+groq:openai/gpt-oss-120b,with_data,McLaren Park,12.44,39,1,12.4,0.4,matched
+groq:openai/gpt-oss-120b,with_data,Seacliff,11.83,40,1,11.8,0.3,matched
+groq:openai/gpt-oss-120b,with_data,Presidio,6.42,41,1,6.4,0.3,matched
+gemini:gemini-3.5-flash-lite,no_data,Mission,821.44,1,5,1100.0,33.9,matched
+gemini:gemini-3.5-flash-lite,no_data,Tenderloin,794.19,2,5,1800.0,126.6,matched
+gemini:gemini-3.5-flash-lite,no_data,South of Market,719.5,3,5,1400.0,94.6,matched
+gemini:gemini-3.5-flash-lite,no_data,Bayview Hunters Point,541.94,4,5,750.0,38.4,matched
+gemini:gemini-3.5-flash-lite,no_data,Financial District/South Beach,499.53,5,5,950.0,90.2,matched
+gemini:gemini-3.5-flash-lite,no_data,Western Addition,297.0,6,4,600.0,102.0,matched
+gemini:gemini-3.5-flash-lite,no_data,North Beach,279.5,7,3,340.0,21.6,matched
+gemini:gemini-3.5-flash-lite,no_data,Sunset/Parkside,263.47,8,3,400.0,51.8,matched
+gemini:gemini-3.5-flash-lite,no_data,Hayes Valley,234.94,9,3,380.0,61.7,matched
+gemini:gemini-3.5-flash-lite,no_data,Nob Hill,233.08,10,3,420.0,80.2,matched
+gemini:gemini-3.5-flash-lite,no_data,Marina,230.78,11,3,350.0,51.7,matched
+gemini:gemini-3.5-flash-lite,no_data,Castro/Upper Market,202.28,12,2,280.0,38.4,matched
+gemini:gemini-3.5-flash-lite,no_data,Russian Hill,196.19,13,2,270.0,37.6,matched
+gemini:gemini-3.5-flash-lite,no_data,Bernal Heights,192.56,14,2,220.0,14.3,matched
+gemini:gemini-3.5-flash-lite,no_data,West of Twin Peaks,172.67,15,1,120.0,30.5,matched
+gemini:gemini-3.5-flash-lite,no_data,Outer Richmond,171.56,16,2,210.0,22.4,matched
+gemini:gemini-3.5-flash-lite,no_data,Excelsior,155.56,17,3,350.0,125.0,matched
+gemini:gemini-3.5-flash-lite,no_data,Chinatown,150.25,18,2,250.0,66.4,matched
+gemini:gemini-3.5-flash-lite,no_data,Pacific Heights,149.08,19,2,260.0,74.4,matched
+gemini:gemini-3.5-flash-lite,no_data,Mission Bay,144.31,20,3,300.0,107.9,matched
+gemini:gemini-3.5-flash-lite,no_data,Potrero Hill,134.25,21,2,230.0,71.3,matched
+gemini:gemini-3.5-flash-lite,no_data,Lakeshore,127.83,22,1,110.0,14.0,matched
+gemini:gemini-3.5-flash-lite,no_data,Golden Gate Park,121.75,23,2,150.0,23.2,matched
+gemini:gemini-3.5-flash-lite,no_data,Haight Ashbury,121.11,24,3,320.0,164.2,matched
+gemini:gemini-3.5-flash-lite,no_data,Outer Mission,119.0,25,2,240.0,101.7,matched
+gemini:gemini-3.5-flash-lite,no_data,Noe Valley,109.28,26,2,190.0,73.9,matched
+gemini:gemini-3.5-flash-lite,no_data,Lone Mountain/USF,104.53,27,2,160.0,53.1,matched
+gemini:gemini-3.5-flash-lite,no_data,Portola,104.39,28,2,180.0,72.4,matched
+gemini:gemini-3.5-flash-lite,no_data,Inner Richmond,103.03,29,2,200.0,94.1,matched
+gemini:gemini-3.5-flash-lite,no_data,Inner Sunset,101.19,30,2,180.0,77.9,matched
+gemini:gemini-3.5-flash-lite,no_data,Oceanview/Merced/Ingleside,93.67,31,3,330.0,252.3,matched
+gemini:gemini-3.5-flash-lite,no_data,Visitacion Valley,84.86,32,3,310.0,265.3,matched
+gemini:gemini-3.5-flash-lite,no_data,Japantown,68.69,33,1,130.0,89.2,matched
+gemini:gemini-3.5-flash-lite,no_data,Presidio Heights,59.92,34,1,80.0,33.5,matched
+gemini:gemini-3.5-flash-lite,no_data,Glen Park,50.28,35,1,90.0,79.0,matched
+gemini:gemini-3.5-flash-lite,no_data,Twin Peaks,42.81,36,1,100.0,133.6,matched
+gemini:gemini-3.5-flash-lite,no_data,Treasure Island,29.72,37,1,90.0,202.8,matched
+gemini:gemini-3.5-flash-lite,no_data,Lincoln Park,15.42,38,1,40.0,159.5,matched
+gemini:gemini-3.5-flash-lite,no_data,McLaren Park,12.44,39,1,50.0,301.8,matched
+gemini:gemini-3.5-flash-lite,no_data,Seacliff,11.83,40,1,30.0,153.5,matched
+gemini:gemini-3.5-flash-lite,no_data,Presidio,6.42,41,1,70.0,990.9,matched
+gemini:gemini-3.5-flash-lite,with_data,Mission,821.44,1,5,821.4,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Tenderloin,794.19,2,5,794.2,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,South of Market,719.5,3,5,719.5,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Bayview Hunters Point,541.94,4,5,541.9,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Financial District/South Beach,499.53,5,4,499.5,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Western Addition,297.0,6,3,297.0,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,North Beach,279.5,7,3,279.5,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Sunset/Parkside,263.47,8,3,263.5,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Hayes Valley,234.94,9,2,234.9,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Nob Hill,233.08,10,2,233.1,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Marina,230.78,11,2,230.8,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Castro/Upper Market,202.28,12,2,202.3,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Russian Hill,196.19,13,2,196.2,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Bernal Heights,192.56,14,2,192.6,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,West of Twin Peaks,172.67,15,2,172.7,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Outer Richmond,171.56,16,2,171.6,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Excelsior,155.56,17,2,155.6,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Chinatown,150.25,18,2,150.2,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Pacific Heights,149.08,19,2,149.1,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Mission Bay,144.31,20,2,144.3,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Potrero Hill,134.25,21,2,134.2,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Lakeshore,127.83,22,2,127.8,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Golden Gate Park,121.75,23,2,121.8,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Haight Ashbury,121.11,24,2,121.1,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Outer Mission,119.0,25,2,119.0,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Noe Valley,109.28,26,2,109.3,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Lone Mountain/USF,104.53,27,2,104.5,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Portola,104.39,28,2,104.4,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Inner Richmond,103.03,29,2,103.0,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Inner Sunset,101.19,30,2,101.2,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Oceanview/Merced/Ingleside,93.67,31,1,93.7,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Visitacion Valley,84.86,32,1,84.9,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Japantown,68.69,33,1,68.7,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Presidio Heights,59.92,34,1,59.9,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Glen Park,50.28,35,1,50.3,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Twin Peaks,42.81,36,1,42.8,0.0,matched
+gemini:gemini-3.5-flash-lite,with_data,Treasure Island,29.72,37,1,29.7,0.1,matched
+gemini:gemini-3.5-flash-lite,with_data,Lincoln Park,15.42,38,1,15.4,0.1,matched
+gemini:gemini-3.5-flash-lite,with_data,McLaren Park,12.44,39,1,12.4,0.4,matched
+gemini:gemini-3.5-flash-lite,with_data,Seacliff,11.83,40,1,11.8,0.3,matched
+gemini:gemini-3.5-flash-lite,with_data,Presidio,6.42,41,1,6.4,0.3,matched

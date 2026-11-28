@@ -1,0 +1,37 @@
+Task 3: LLM crime levels vs. real data (San Francisco, 2022-2024)
+================================================================
+Real data: 41 neighbourhoods, average incidents per month over 36 months (Task 1 table, missing months counted as 0).
+Real top 5: Mission, Tenderloin, South of Market, Bayview Hunters Point, Financial District/South Beach
+
+model                             mode        spearman  top5  med.err%  skipped  invented
+-----------------------------------------------------------------------------------------
+groq:openai/gpt-oss-120b          no_data        0.328   4/5      84.2        0         0
+groq:openai/gpt-oss-120b          with_data      0.980   5/5       0.0        0         0
+gemini:gemini-3.5-flash-lite      no_data        0.786   5/5      77.9        0         0
+gemini:gemini-3.5-flash-lite      with_data      0.908   5/5       0.0        0         0
+
+Columns: spearman = Spearman rank correlation between the LLM's 1-5 rating and the real monthly average; top5 = real top-5 neighbourhoods also in the LLM's top 5 (rating, ties broken by its estimate); med.err% = median absolute percentage error of the incidents-per-month estimates.
+
+[groq:openai/gpt-oss-120b / no_data]  retrieved 2026-11-26T23:14:09+00:00 UTC (cached)
+  Spearman (estimate vs real): 0.469
+  LLM top 5: Bayview Hunters Point, Mission, South of Market, Tenderloin, Visitacion Valley
+  Skipped: none
+  Invented: none
+
+[groq:openai/gpt-oss-120b / with_data]  retrieved 2026-11-26T23:18:00+00:00 UTC (cached)
+  Spearman (estimate vs real): 1.000
+  LLM top 5: Bayview Hunters Point, Financial District/South Beach, Mission, South of Market, Tenderloin
+  Skipped: none
+  Invented: none
+
+[gemini:gemini-3.5-flash-lite / no_data]  retrieved 2026-11-27T23:53:25+00:00 UTC (cached)
+  Spearman (estimate vs real): 0.865
+  LLM top 5: Bayview Hunters Point, Financial District/South Beach, Mission, South of Market, Tenderloin
+  Skipped: none
+  Invented: none
+
+[gemini:gemini-3.5-flash-lite / with_data]  retrieved 2026-11-28T04:41:05+00:00 UTC
+  Spearman (estimate vs real): 1.000
+  LLM top 5: Bayview Hunters Point, Financial District/South Beach, Mission, South of Market, Tenderloin
+  Skipped: none
+  Invented: none
