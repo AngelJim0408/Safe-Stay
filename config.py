@@ -80,7 +80,7 @@ MAX_LLM_RETRIES = 3
 # Set to models your keys can actually use (check each provider's model list).
 LLM_MODELS = {
     "groq": "openai/gpt-oss-120b",
-    "gemini": "gemini-2.5-flash",
+    "gemini": "gemini-3.5-flash-lite",
     "openrouter": "meta-llama/llama-3.3-70b-instruct:free",
 }
 
