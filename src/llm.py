@@ -30,12 +30,12 @@ def _call(provider: str, system: str, user: str) -> str:
             json={"model": MODELS[provider], "temperature": 0,
                   "messages": [{"role": "system", "content": system},
                                {"role": "user", "content": user}]},
-            timeout=60)
+            timeout=180)
         _check(r)
         return r.json()["choices"][0]["message"]["content"]
     url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
            f"{MODELS['gemini']}:generateContent")
-    r = requests.post(url, headers={"x-goog-api-key": key}, timeout=60, json={
+    r = requests.post(url, headers={"x-goog-api-key": key}, timeout=180, json={
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
         "generationConfig": {"temperature": 0}})
