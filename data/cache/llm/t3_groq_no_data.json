@@ -1,0 +1,223 @@
+{
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "mode": "no_data",
+  "system": "You are helping compare large language model knowledge with official police data. Answer with JSON only, no prose and no markdown. Rate every neighbourhood you are given, and only those neighbourhoods, spelled exactly as given.",
+  "user": "City: San Francisco. Neighbourhoods (San Francisco Analysis Neighborhoods), 41 in total:\nBayview Hunters Point; Bernal Heights; Castro/Upper Market; Chinatown; Excelsior; Financial District/South Beach; Glen Park; Golden Gate Park; Haight Ashbury; Hayes Valley; Inner Richmond; Inner Sunset; Japantown; Lakeshore; Lincoln Park; Lone Mountain/USF; Marina; McLaren Park; Mission; Mission Bay; Nob Hill; Noe Valley; North Beach; Oceanview/Merced/Ingleside; Outer Mission; Outer Richmond; Pacific Heights; Portola; Potrero Hill; Presidio; Presidio Heights; Russian Hill; Seacliff; South of Market; Sunset/Parkside; Tenderloin; Treasure Island; Twin Peaks; Visitacion Valley; West of Twin Peaks; Western Addition\n\nYou have no data for this task. Use only what you already know.\n\nReturn exactly this JSON shape:\n{\"neighbourhoods\": [{\"name\": \"<neighbourhood>\", \"rating\": <integer 1-5>, \"incidents_per_month\": <number>}, ...]}\nrating: 1 = fewest reported incidents, 5 = most reported incidents.\nincidents_per_month: your estimate of the average number of police incident reports per month in that neighbourhood in 2022-2024.",
+  "attempts": [
+    {
+      "received_at": "2026-11-26T23:14:09+00:00",
+      "response_text": "{\"neighbourhoods\":[{\"name\":\"Bayview Hunters Point\",\"rating\":4,\"incidents_per_month\":85},{\"name\":\"Bernal Heights\",\"rating\":2,\"incidents_per_month\":22},{\"name\":\"Castro/Upper Market\",\"rating\":2,\"incidents_per_month\":18},{\"name\":\"Chinatown\",\"rating\":3,\"incidents_per_month\":45},{\"name\":\"Excelsior\",\"rating\":3,\"incidents_per_month\":38},{\"name\":\"Financial District/South Beach\",\"rating\":3,\"incidents_per_month\":40},{\"name\":\"Glen Park\",\"rating\":2,\"incidents_per_month\":15},{\"name\":\"Golden Gate Park\",\"rating\":2,\"incidents_per_month\":20},{\"name\":\"Haight Ashbury\",\"rating\":2,\"incidents_per_month\":25},{\"name\":\"Hayes Valley\",\"rating\":2,\"incidents_per_month\":20},{\"name\":\"Inner Richmond\",\"rating\":2,\"incidents_per_month\":18},{\"name\":\"Inner Sunset\",\"rating\":2,\"incidents_per_month\":16},{\"name\":\"Japantown\",\"rating\":2,\"incidents_per_month\":12},{\"name\":\"Lakeshore\",\"rating\":2,\"incidents_per_month\":14},{\"name\":\"Lincoln Park\",\"rating\":2,\"incidents_per_month\":10},{\"name\":\"Lone Mountain/USF\",\"rating\":2,\"incidents_per_month\":12},{\"name\":\"Marina\",\"rating\":1,\"incidents_per_month\":8},{\"name\":\"McLaren Park\",\"rating\":3,\"incidents_per_month\":30},{\"name\":\"Mission\",\"rating\":4,\"incidents_per_month\":95},{\"name\":\"Mission Bay\",\"rating\":3,\"incidents_per_month\":35},{\"name\":\"Nob Hill\",\"rating\":2,\"incidents_per_month\":20},{\"name\":\"Noe Valley\",\"rating\":2,\"incidents_per_month\":18},{\"name\":\"North Beach\",\"rating\":2,\"incidents_per_month\":22},{\"name\":\"Oceanview/Merced/Ingleside\",\"rating\":3,\"incidents_per_month\":40},{\"name\":\"Outer Mission\",\"rating\":3,\"incidents_per_month\":32},{\"name\":\"Outer Richmond\",\"rating\":2,\"incidents_per_month\":12},{\"name\":\"Pacific Heights\",\"rating\":1,\"incidents_per_month\":5},{\"name\":\"Portola\",\"rating\":3,\"incidents_per_month\":28},{\"name\":\"Potrero Hill\",\"rating\":3,\"incidents_per_month\":30},{\"name\":\"Presidio\",\"rating\":1,\"incidents_per_month\":3},{\"name\":\"Presidio Heights\",\"rating\":1,\"incidents_per_month\":4},{\"name\":\"Russian Hill\",\"rating\":2,\"incidents_per_month\":22},{\"name\":\"Seacliff\",\"rating\":1,\"incidents_per_month\":2},{\"name\":\"South of Market\",\"rating\":4,\"incidents_per_month\":110},{\"name\":\"Sunset/Parkside\",\"rating\":2,\"incidents_per_month\":14},{\"name\":\"Tenderloin\",\"rating\":5,\"incidents_per_month\":180},{\"name\":\"Treasure Island\",\"rating\":3,\"incidents_per_month\":25},{\"name\":\"Twin Peaks\",\"rating\":2,\"incidents_per_month\":10},{\"name\":\"Visitacion Valley\",\"rating\":4,\"incidents_per_month\":80},{\"name\":\"West of Twin Peaks\",\"rating\":2,\"incidents_per_month\":12},{\"name\":\"Western Addition\",\"rating\":3,\"incidents_per_month\":35}]}",
+      "problems": []
+    }
+  ],
+  "valid": true,
+  "parsed": [
+    {
+      "name": "Bayview Hunters Point",
+      "rating": 4,
+      "incidents_per_month": 85.0
+    },
+    {
+      "name": "Bernal Heights",
+      "rating": 2,
+      "incidents_per_month": 22.0
+    },
+    {
+      "name": "Castro/Upper Market",
+      "rating": 2,
+      "incidents_per_month": 18.0
+    },
+    {
+      "name": "Chinatown",
+      "rating": 3,
+      "incidents_per_month": 45.0
+    },
+    {
+      "name": "Excelsior",
+      "rating": 3,
+      "incidents_per_month": 38.0
+    },
+    {
+      "name": "Financial District/South Beach",
+      "rating": 3,
+      "incidents_per_month": 40.0
+    },
+    {
+      "name": "Glen Park",
+      "rating": 2,
+      "incidents_per_month": 15.0
+    },
+    {
+      "name": "Golden Gate Park",
+      "rating": 2,
+      "incidents_per_month": 20.0
+    },
+    {
+      "name": "Haight Ashbury",
+      "rating": 2,
+      "incidents_per_month": 25.0
+    },
+    {
+      "name": "Hayes Valley",
+      "rating": 2,
+      "incidents_per_month": 20.0
+    },
+    {
+      "name": "Inner Richmond",
+      "rating": 2,
+      "incidents_per_month": 18.0
+    },
+    {
+      "name": "Inner Sunset",
+      "rating": 2,
+      "incidents_per_month": 16.0
+    },
+    {
+      "name": "Japantown",
+      "rating": 2,
+      "incidents_per_month": 12.0
+    },
+    {
+      "name": "Lakeshore",
+      "rating": 2,
+      "incidents_per_month": 14.0
+    },
+    {
+      "name": "Lincoln Park",
+      "rating": 2,
+      "incidents_per_month": 10.0
+    },
+    {
+      "name": "Lone Mountain/USF",
+      "rating": 2,
+      "incidents_per_month": 12.0
+    },
+    {
+      "name": "Marina",
+      "rating": 1,
+      "incidents_per_month": 8.0
+    },
+    {
+      "name": "McLaren Park",
+      "rating": 3,
+      "incidents_per_month": 30.0
+    },
+    {
+      "name": "Mission",
+      "rating": 4,
+      "incidents_per_month": 95.0
+    },
+    {
+      "name": "Mission Bay",
+      "rating": 3,
+      "incidents_per_month": 35.0
+    },
+    {
+      "name": "Nob Hill",
+      "rating": 2,
+      "incidents_per_month": 20.0
+    },
+    {
+      "name": "Noe Valley",
+      "rating": 2,
+      "incidents_per_month": 18.0
+    },
+    {
+      "name": "North Beach",
+      "rating": 2,
+      "incidents_per_month": 22.0
+    },
+    {
+      "name": "Oceanview/Merced/Ingleside",
+      "rating": 3,
+      "incidents_per_month": 40.0
+    },
+    {
+      "name": "Outer Mission",
+      "rating": 3,
+      "incidents_per_month": 32.0
+    },
+    {
+      "name": "Outer Richmond",
+      "rating": 2,
+      "incidents_per_month": 12.0
+    },
+    {
+      "name": "Pacific Heights",
+      "rating": 1,
+      "incidents_per_month": 5.0
+    },
+    {
+      "name": "Portola",
+      "rating": 3,
+      "incidents_per_month": 28.0
+    },
+    {
+      "name": "Potrero Hill",
+      "rating": 3,
+      "incidents_per_month": 30.0
+    },
+    {
+      "name": "Presidio",
+      "rating": 1,
+      "incidents_per_month": 3.0
+    },
+    {
+      "name": "Presidio Heights",
+      "rating": 1,
+      "incidents_per_month": 4.0
+    },
+    {
+      "name": "Russian Hill",
+      "rating": 2,
+      "incidents_per_month": 22.0
+    },
+    {
+      "name": "Seacliff",
+      "rating": 1,
+      "incidents_per_month": 2.0
+    },
+    {
+      "name": "South of Market",
+      "rating": 4,
+      "incidents_per_month": 110.0
+    },
+    {
+      "name": "Sunset/Parkside",
+      "rating": 2,
+      "incidents_per_month": 14.0
+    },
+    {
+      "name": "Tenderloin",
+      "rating": 5,
+      "incidents_per_month": 180.0
+    },
+    {
+      "name": "Treasure Island",
+      "rating": 3,
+      "incidents_per_month": 25.0
+    },
+    {
+      "name": "Twin Peaks",
+      "rating": 2,
+      "incidents_per_month": 10.0
+    },
+    {
+      "name": "Visitacion Valley",
+      "rating": 4,
+      "incidents_per_month": 80.0
+    },
+    {
+      "name": "West of Twin Peaks",
+      "rating": 2,
+      "incidents_per_month": 12.0
+    },
+    {
+      "name": "Western Addition",
+      "rating": 3,
+      "incidents_per_month": 35.0
+    }
+  ],
+  "retrieved_at": "2026-11-26T23:14:09+00:00"
+}
